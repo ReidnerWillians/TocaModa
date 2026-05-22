@@ -6,15 +6,15 @@ document.querySelector('.botao-pause').addEventListener('click', pausarMusica);
 
 function tocarMusica() {
     musica.play();
-    document.querySelector('.botao-pause').style.display = 'block';
     document.querySelector('.botao-play').style.display = 'none';
+    document.querySelector('.botao-pause').style.display = 'block';
 }
 
 function pausarMusica() {
     musica.pause();
+    document.querySelector('.botao-play').style.display = 'block';}
     document.querySelector('.botao-pause').style.display = 'none';
-    document.querySelector('.botao-play').style.display = 'block';
-}
+    
 
 function atualizarBarra() {
     let barra = document.querySelector('progress');
