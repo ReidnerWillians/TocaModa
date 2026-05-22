@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +41,7 @@ h2 {
 
 progress{
     height: 6px;
-    width: 0%;
+    width: 0;
     background-color: #333;
 }
 
@@ -65,20 +64,19 @@ progress{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .botao-play, .botao-pause {
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;    
 }
 
 .setas {
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
 }
 
 .botao-pause {
     display: none;
-    cursor: pointer;
 }
